@@ -5,7 +5,7 @@
   align-items: center;
   height: 100vh;
   justify-content: center;
-  gap: 14px;
+  gap: 8px;
 }
 .parent > .container {
   display: flex;
@@ -14,19 +14,19 @@
   /* width: 400px; */
   /* height: 400px; */
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .container button {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: lightgray;
 }
 
 .carouselFrame {
-  width: 270px;
-  height: 180px;
+  width: 350px;
+  height: 250px;
   /* outline: 1px solid black; */
   display: flex;
   justify-content: center;
@@ -38,7 +38,6 @@
 
 .carouselContainer {
   display: flex;
-  transition: 5s ease-in-out;
 }
 
 .carouselContainer > div {
@@ -48,33 +47,38 @@
   border-radius: 12px 12px;
   box-shadow: 0px 2px 10px 0px #44444475;
   background-color: #44444475;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
 }
 
+
+
 img {
-  height: 185px;
-  width: auto;
+  height: auto;
+  width: 350px;
   border-radius: 12px 12px;
   padding: 6px;
   /* box-shadow: 0px 2px 10px 0px #44444475; */
 }
 
-.circleSelectorContainer {
+.navDotsContainer {
   display: flex;
   align-items: center;
 }
 
-.circleSelectors button {
-    background-color: white;
-    border-radius: 50%;
-    border-color: black;
-    height: 14px;
-    width: 14px;
-    /* gap: 6px; */
-    border-width: 1px solid;
-    border: 1px solid black;
+.navDots button {
+  background-color: white;
+  border-radius: 50%;
+  border-color: #44444475;
+  height: 14px;
+  width: 14px;
+  /* gap: 6px; */
+  border-width: 1px solid;
+  border: 1px solid #44444475;
 }
 
-.circleSelectors {
+.navDots {
   display: flex;
   gap: 6px;
 }

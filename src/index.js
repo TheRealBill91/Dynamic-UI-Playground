@@ -3,9 +3,10 @@ import "./css/style.css";
 import "./css/carousel.css";
 
 import { toggleDropDownMenu } from "./toggleDropDownMenu";
-import { startImageCarousel, movePictureRight } from "./imageCarousel";
+import { startImageCarousel, movePictureRight, changeCurrentImageByDotClick } from "./imageCarousel";
 
 toggleDropDownMenu();
 startImageCarousel();
+changeCurrentImageByDotClick();
 setInterval(movePictureRight, 4000);
 
